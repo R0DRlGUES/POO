@@ -6,7 +6,7 @@ package com.mycompany.mavenproject1.atvAnimal;
 
 /**
  *
- * @author aluno
+ * @author Pedro
  */
 public class Animais {
     public static void main(String[] args){
