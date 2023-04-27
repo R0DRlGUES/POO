@@ -12,6 +12,8 @@ public class testeEx4 {
         urso.dados();
 
         Mamifero camelo = new Mamifero("Camelo", "Amarelo", "Terra", 150, 2.0f, 4);
-
+        
+        camelo.dados();
+    
     }
 }
