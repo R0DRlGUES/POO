@@ -1,16 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.exemplopolimorfimo;
 
-/**
- *
- * @author aluno
- */
 public class ExemploPolimorfimo {
 
+    /*Muda a quantidade dos parametros, tipo dos parametro, ordem, nome ou o retorno */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Circulo forma = new Circulo();
+        forma.desenhar(10);
+
+        Quadrado quadro = new Quadrado();
+        quadro.desenhar();
+
     }
 }
